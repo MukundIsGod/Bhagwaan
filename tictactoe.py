@@ -61,7 +61,6 @@ def compmove(board):
 		if i[1]==lol:
 			lol=playables[i[0]]
 			break
-	print("score: ", score)
 	board[lol]='O'
 
 def dikhao(board):
